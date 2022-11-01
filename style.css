@@ -6,3 +6,28 @@ html, body {
 canvas {
   display: block;
 }
+
+.mySliders{
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+
+.mySliders:focus {
+  outline: none;
+}
+
+.mySliders::-webkit-slider-runnable-track {
+  background: #A5A5a5;
+  height: 8px;
+  border-radius: 10px;
+}
+
+.mySliders::-webkit-slider-thumb {
+  width: 18px;
+  height: 18px;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -4.8px;
+  border-radius: 10px;
+}
